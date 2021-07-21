@@ -14,7 +14,7 @@ import java.util.Base64;
 
 
 
-public class messagesdk {
+public class messagesdk{
     public static void main(String[] args) throws Exception {
          args =new String[6];
          args[0] = "2";

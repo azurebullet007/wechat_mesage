@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "bcpkix-jdk15on-169.jar",
+        "bcprov-jdk15on-169.jar"
+    ],
+    "java.home": "/usr/lib/jvm/java-1.11.0-openjdk-amd64"
+}
