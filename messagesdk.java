@@ -11,6 +11,7 @@ import java.security.Security;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.RSAPrivateCrtKeySpec;
 import java.util.Base64;
+import javax.crypto.Cipher;
 
 
 
@@ -168,7 +169,6 @@ public class messagesdk{
             System.out.println("this is pscs#1");
             privKeyPEM = privKeyPEM.replace(PEM_RSA_PRIVATE_START,"").replace(PEM_RSA_PRIVATE_END,"");
             privKeyPEM = privKeyPEM.replaceAll("\\s","");
-
             DerInputStream derReader = new DerInputStream(Base64.getDecoder().decode(privKeyPEM));
 
             DerValue[] seq = derReader.getSequence(0);

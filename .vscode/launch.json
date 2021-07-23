@@ -4,6 +4,16 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
+
+        
+    {
+        "type": "java",
+        "name": "Launch with Arguments Prompt",
+        "request": "launch",
+        "mainClass": "",
+        "args": "${command:--add-exports java.base/sun.security.util=ALL-UNNAMED}"
+    },
         {
             "type": "java",
             "name": "Launch Current File",
@@ -15,6 +25,7 @@
             "name": "Launch messagesdk",
             "request": "launch",
             "mainClass": "messagesdk",
+            "args": " ${command:--add-exports java.base/sun.security.util=ALL-UNNAMED}",
             "projectName": "wechat_mesage_747aa85d"
         },
         {
