@@ -1,4 +1,4 @@
-# wechat_mesage
+# wechat_message
 
  messagesdk.java和整个sdk我之前使用IDEA创建的项目，那里是可以运行的，这边有两个包有问题好像是JDK8到11的问题。
 
