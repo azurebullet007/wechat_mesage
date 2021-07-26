@@ -6,6 +6,4 @@
 
 bcp开头的两个文件是用来解压rsa加密过的文件的jar包
 
-解决sun.security.util的编译问题可以在编译时候加上(主要是JDK8—>JDK11的问题)
-
---add-exports java.base/sun.security.util=ALL-UNNAMED
+使用另一种方案，放弃使用jdk8之前的环境

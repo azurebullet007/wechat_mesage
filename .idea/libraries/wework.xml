@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="wework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/com/tencent/wework/bcprov-jdk15on-169.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com/tencent/wework/json-20210307.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com/tencent/wework/bcpkix-jdk15on-169.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
