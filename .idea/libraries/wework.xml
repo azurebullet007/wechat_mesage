@@ -4,8 +4,15 @@
       <root url="jar://$PROJECT_DIR$/com/tencent/wework/bcprov-jdk15on-169.jar!/" />
       <root url="jar://$PROJECT_DIR$/com/tencent/wework/json-20210307.jar!/" />
       <root url="jar://$PROJECT_DIR$/com/tencent/wework/bcpkix-jdk15on-169.jar!/" />
+      <root url="file://$PROJECT_DIR$/com/tencent/wework/commons-codec-1.15" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/com/tencent/wework/commons-codec-1.15/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/com/tencent/wework/commons-codec-1.15" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/com/tencent/wework/commons-codec-1.15" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/com/tencent/wework/commons-codec-1.15" recursive="false" type="SOURCES" />
   </library>
 </component>
