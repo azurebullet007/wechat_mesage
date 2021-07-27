@@ -37,8 +37,6 @@ public class RSAEncrypt {
     public static String decryptRSA(String str, String privateKey) throws Exception {
         try {
             byte[] signPrivate = Base64.decodeBase64(privateKey.getBytes());
-            //byte[] signPrivate = privateKey.getBytes();
-//            byte[] data=Base64.decodeBase64(str);
             byte[] data=Base64.decodeBase64(str);
             PKCS8EncodedKeySpec priv_spec = new PKCS8EncodedKeySpec(
                     signPrivate);
@@ -52,7 +50,6 @@ public class RSAEncrypt {
             byte[] cache;
             int i = 0;
             while (inputLen - offSet > 0) {
-                System.out.println(inputLen);
                 if (inputLen - offSet > MAX_DECRYPT_BLOCK) {
                     cache = cipher.doFinal(data, offSet, MAX_DECRYPT_BLOCK);
                 } else {
@@ -70,6 +67,7 @@ public class RSAEncrypt {
             e.printStackTrace();
             return null;
         }
+
 
 
     }
